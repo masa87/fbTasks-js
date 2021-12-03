@@ -9,54 +9,54 @@
   </head>
   <body>
     <section class="section__form">
-      <h3>Zadanie 2 - <span>Formularz</span></h3>
-      <form class="form" id="form">
-        <label for="tittle">Tytuł</label>
-        <input
-          type="text"
-          class="tittle"
-          id="tittle"
-          placeholder="min. 1 znak"
-        />
-        <label for="author">Autor</label>
-        <input
-          type="text"
-          class="author"
-          id="author"
-          placeholder="min. 3 znaki"
-        />
-        <label for="priority">Priorytet</label>
-        <input
-          type="number"
-          min="1"
-          max="5"
-          class="priority"
-          id="priority"
-          placeholder="1-5"
-        />
-        <select name="category" id="category">
-          <option value="dis" selected="true" disabled="disabled">
-            Wybierz kategorię
-          </option>
-          <option value="sci-fi">Sci-fi</option>
-          <option value="action">Action</option>
-          <option value="romance">Romans</option>
-        </select>
-        <input type="submit" class="addBtn" />
-      </form>
-      <p id="demo"></p>
-      <ul class="form__list"></ul>
-      <table class="table">
-        <thead class="table__head">
-          <tr>
-            <th>Tytuł</th>
-            <th>Autor</th>
-            <th>Priorytet</th>
-            <th>Kategoria</th>
-          </tr>
-        </thead>
-        <tbody class="table__body"></tbody>
-      </table>
+      <div class="form__wrapper">
+        <h3>Zadanie 2 - <span>Formularz</span></h3>
+        <form class="form" id="form">
+          <label for="tittle">Tytuł:</label>
+          <input
+            type="text"
+            class="tittle"
+            id="tittle"
+            placeholder="min. 1 znak"
+          />
+          <label for="author">Autor:</label>
+          <input
+            type="text"
+            class="author"
+            id="author"
+            placeholder="min. 3 znaki"
+          />
+          <label for="priority">Priorytet:</label>
+          <input
+            type="number"
+            min="1"
+            max="5"
+            class="priority"
+            id="priority"
+            placeholder="1-5"
+          />
+          <select name="category" id="category">
+            <option value="dis" selected="true" disabled="disabled">
+              Wybierz kategorię
+            </option>
+            <option value="sci-fi">Sci-fi</option>
+            <option value="action">Action</option>
+            <option value="romance">Romans</option>
+          </select>
+          <input type="submit" class="addBtn" />
+        </form>
+        <table class="table">
+          <thead class="table__head">
+            <tr>
+              <th>Tytuł</th>
+              <th>Autor</th>
+              <th>Priorytet</th>
+              <th>Kategoria</th>
+            </tr>
+          </thead>
+          <tbody class="table__body"></tbody>
+        </table>
+      </div>
     </section>
 
     <script src="./form.js"></script>

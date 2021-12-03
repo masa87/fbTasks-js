@@ -44,12 +44,12 @@ const addBook = (e) => {
 const render = () => {
   console.log(books);
 
-  list.innerHTML = "";
+  table.innerHTML = "";
   books.forEach(({ title, author, priority, category }) => {
     table.innerHTML += `
     <tr class='table__rows'>
       <td class='table__drawer'>${title}</td>
-      <td class='table__drawer'${author}</td>
+      <td class='table__drawer'>${author}</td>
       <td class='table__drawer'>${priority}</td>
       <td class='table__drawer'>${category}</td>
     </tr>

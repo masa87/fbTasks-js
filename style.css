@@ -50,3 +50,77 @@ span {
   list-style: none;
   margin: 0;
 }
+
+.section__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form label {
+  margin-right: 5px;
+}
+
+.form input {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  /* background-color: rgb(245, 244, 244); */
+  outline: none;
+}
+
+.form input[type="number"] {
+  width: 50px;
+}
+
+#category {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.addBtn {
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: #000;
+}
+
+.table {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+thead {
+  background-color: rgb(174, 209, 250);
+}
+
+th {
+  padding: 5px 10px;
+}
+
+.table__body {
+  border: 1px solid lightgray;
+}
