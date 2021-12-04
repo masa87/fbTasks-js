@@ -59,7 +59,11 @@ const render = () => {
 
 const validate = (e) => {
   e.preventDefault();
-  if (form.elements[0].value.length < 1 || form.elements[1].value.length < 3) {
+  if (
+    form.elements[0].value.length < 1 ||
+    form.elements[1].value.length < 3 ||
+    form.elements[3].value == ""
+  ) {
     alert("Wypełnij poprawnie wszystkie pola!");
     return;
   } else {
