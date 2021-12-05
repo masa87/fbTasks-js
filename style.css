@@ -15,8 +15,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  width: 180px;
+  align-items: center;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 13px;
 }
 span {
   font-size: 15px;
@@ -24,6 +28,8 @@ span {
 }
 .task1__btn {
   font-size: 15px;
+  margin-top: 15px;
+  padding: 5px 10px;
   border: 1px solid lightgrey;
   background-color: #fff;
   border-radius: 10px;
@@ -37,6 +43,9 @@ span {
 
 .task1__lists {
   display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-top: 15px;
   border: 1px solid lightgray;
   border-radius: 10px;
 }
@@ -56,6 +65,11 @@ span {
   align-items: center;
   list-style: none;
   margin: 0;
+}
+
+.task1__item {
+  border-bottom: 1px solid black;
+  margin-bottom: 7px;
 }
 
 /* task2 - forms  */
