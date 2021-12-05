@@ -87,14 +87,9 @@ span {
   box-shadow: 2px 2px 13px;
 }
 
-h3 {
-  /* margin-top: 50px; */
-}
-
 .form {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   margin-top: 30px;
 }
@@ -151,10 +146,15 @@ th {
   text-align: left;
 }
 
+.table__drawer {
+  padding-left: 5px;
+}
+.table__drawer:nth-child(3) {
+  text-align: center;
+}
+
 /* zad4 */
 
-.picture__wrapper {
-}
 .picture__wrapper img {
   width: 100vw;
   object-fit: cover;
